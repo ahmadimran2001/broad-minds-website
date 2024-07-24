@@ -8,6 +8,7 @@
     "server": "nodemon server/server.js",
     "start": "concurrently \"npm run client\" \"npm run server\""
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
